@@ -1,4 +1,4 @@
-package com.talesofthemagicpanda
+package com.tales.of.the.magic.panda
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
