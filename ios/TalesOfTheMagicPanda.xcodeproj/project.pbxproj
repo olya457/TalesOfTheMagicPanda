@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		6F3DE73A2E634562003A56C1 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3DE7392E634562003A56C1 /* Music.m */; };
-		6F3DE73C2E634AF5003A56C1 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F3DE73B2E634AF5003A56C1 /* bgm.mp3 */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9E8287FD78DADC620A4DB3C4 /* libPods-TalesOfTheMagicPanda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8086A421AA2B69FFFA5482 /* libPods-TalesOfTheMagicPanda.a */; };
@@ -24,12 +23,15 @@
 		4A8086A421AA2B69FFFA5482 /* libPods-TalesOfTheMagicPanda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TalesOfTheMagicPanda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF8EF105FEE152D35301C1D /* Pods-TalesOfTheMagicPanda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalesOfTheMagicPanda.debug.xcconfig"; path = "Target Support Files/Pods-TalesOfTheMagicPanda/Pods-TalesOfTheMagicPanda.debug.xcconfig"; sourceTree = "<group>"; };
 		6F3DE7392E634562003A56C1 /* Music.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
-		6F3DE73B2E634AF5003A56C1 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgm.mp3; path = ../../../bgm.mp3; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TalesOfTheMagicPanda/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TalesOfTheMagicPanda/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EF7857BD421E6BFBC2C32300 /* Pods-TalesOfTheMagicPanda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalesOfTheMagicPanda.release.xcconfig"; path = "Target Support Files/Pods-TalesOfTheMagicPanda/Pods-TalesOfTheMagicPanda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6F3DE73D2E6633C8003A56C1 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
@@ -46,13 +48,13 @@
 		13B07FAE1A68108700A75B9A /* TalesOfTheMagicPanda */ = {
 			isa = PBXGroup;
 			children = (
+				6F3DE73D2E6633C8003A56C1 /* Resources */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				6F3DE7392E634562003A56C1 /* Music.m */,
-				6F3DE73B2E634AF5003A56C1 /* bgm.mp3 */,
 			);
 			name = TalesOfTheMagicPanda;
 			sourceTree = "<group>";
@@ -123,6 +125,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				6F3DE73D2E6633C8003A56C1 /* Resources */,
+			);
 			name = TalesOfTheMagicPanda;
 			productName = TalesOfTheMagicPanda;
 			productReference = 13B07F961A680F5B00A75B9A /* TalesOfTheMagicPanda.app */;
@@ -164,7 +169,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F3DE73C2E634AF5003A56C1 /* bgm.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D0FD148BDE261A1C7DCA7094 /* PrivacyInfo.xcprivacy in Resources */,
